@@ -25,6 +25,7 @@ namespace PantryWebApp.Data
 
         //This is where we hand the M:N (N:M?) relationship via the OnModelCreating method
         //Source: https://learn.microsoft.com/en-us/ef/core/modeling/
+
         //protected override void OnModelCreating(ModelBuilder builder)
         //{
         //    base.OnModelCreating(builder);//Constructor?

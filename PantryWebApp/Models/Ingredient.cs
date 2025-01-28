@@ -12,8 +12,6 @@
 
         //pretty cool, upon changing date to datetime we didn't lose any data baby!!!!
 
-        public List<RecipeIngredient> RecipeIngredients { get; set; } = new List<RecipeIngredient>();
-
 
         //Constructor
         public Ingredient()

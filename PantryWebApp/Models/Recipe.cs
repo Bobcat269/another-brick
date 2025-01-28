@@ -19,7 +19,7 @@ namespace PantryWebApp.Models
         public string? Description { get; set; }
 
         [Required]
-        public List<RecipeIngredient> RecipeIngredients { get; set; } = new List<RecipeIngredient>();
+        public List<string> RecipeIngredients { get; set; } = new List<string>();
         //RecipeIngredients because it's a list?
 
         //Constructor
